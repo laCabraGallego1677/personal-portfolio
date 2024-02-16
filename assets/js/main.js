@@ -1,15 +1,20 @@
+import darkMode from "./components/dark-mode.js";
 import parallax from "./components/parallax.js";
 import activeMenu from "./components/selected_menu.js";
 import updateCopyrightYear from "./helpers/date_updater.js";
 import resetToHome from "./helpers/reload_page.js";
 import sendEmail from "./helpers/send__form.js";
 
-parallax()
+parallax();
 
-activeMenu()
+activeMenu();
 
-resetToHome()
+resetToHome();
 
-updateCopyrightYear()
+updateCopyrightYear();
 
-sendEmail()
+sendEmail();
+
+darkMode();
+
+
