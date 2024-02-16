@@ -1,5 +1,5 @@
 const d = document;
-const toggle = document.getElementById("darkmode-toggle");
+const toggle = d.getElementById("darkmode-toggle");
 const $selector = d.querySelectorAll("[data-dark]");
 
 function darkMode(e) {
