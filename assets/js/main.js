@@ -1,4 +1,5 @@
 import darkMode from "./components/dark-mode.js";
+import englishLanguage from "./components/languages.js";
 import parallax from "./components/parallax.js";
 import activeMenu from "./components/selected_menu.js";
 import updateCopyrightYear from "./helpers/date_updater.js";
@@ -17,4 +18,4 @@ sendEmail();
 
 darkMode();
 
-
+englishLanguage();

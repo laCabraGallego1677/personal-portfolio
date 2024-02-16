@@ -45,7 +45,7 @@
             <a id="home" class="navbar__link active" href="#home">Inicio</a>
           </li>
           <li class="navbar__item">
-            <a id="about me" class="navbar__link" href="#about"data-dark>Acerca de Mí</a>
+            <a id="about-me" class="navbar__link" href="#about"data-dark>Acerca de Mí</a>
           </li>
           <li class="navbar__item">
             <a id="skills" class="navbar__link" href="#skills"data-dark>Habilidades</a>
@@ -330,7 +330,7 @@
               <i class="bx bx-phone"></i>
 
               <span class="contact__info-number">
-                <a id="phone" href="tel:1-234-567-8910"> +1 123 456 7890 </a>
+                <a href="tel:1-234-567-8910"> +1 123 456 7890 </a>
               </span>
             </div>
 
@@ -338,7 +338,7 @@
               <i class="bx bxs-envelope"></i>
 
               <span class="contact__info-mail">
-                <a id="mail" href="mailto:test@correo.com"> test@correo.com </a>
+                <a href="mailto:test@correo.com"> test@correo.com </a>
               </span>
             </div>
 
@@ -351,25 +351,25 @@
         </div>
 
         <div class="contact__form light-mode">
-          <h3 class="contact__form-title" color="black">Enviar mensaje</h3>
+          <h3 id="form-title" class="contact__form-title" color="black">Enviar mensaje</h3>
           <form id="form" class="contact__form-container">
             <div class="contact__form-group">
-              <label for="name" class="contact__form-label">Nombre</label>
+              <label id="form-name" for="name" class="contact__form-label">Nombre</label>
               <input type="text" id="name" name="name" class="contact__form-input" />
             </div>
 
             <div class="contact__form-group">
-              <label for="email" class="contact__form-label">Correo</label>
+              <label id="form-email" for="email" class="contact__form-label">Correo</label>
               <input type="email" id="email" name="email" class="contact__form-input" />
             </div>
 
             <div class="contact__form-group">
-              <label for="subject" class="contact__form-label">Asunto</label>
+              <label id="form-subject" for="subject" class="contact__form-label">Asunto</label>
               <input type="text" id="subject" name="subject" class="contact__form-input" />
             </div>
 
             <div class="contact__form-group">
-              <label for="message" class="contact__form-label">Mensaje</label>
+              <label id="form-message" for="message" class="contact__form-label">Mensaje</label>
               <textarea id="message" name="message" cols="30" rows="10" class="contact__form-input"></textarea>
             </div>
             <dialog id="modal">
@@ -391,14 +391,14 @@
     <div class="footer__container grid--container">
       <div class="footer__info">
         <h3 class="footer__title">C. Andrés Gallego</h3>
-        <p class="footer__description">
+        <p id="footer-introduction" class="footer__description">
           Soy desarrollador web, apasionado por la tecnología y la
           programación.
         </p>
       </div>
 
       <div class="footer__social">
-        <h3 class="footer__title">Redes Sociales</h3>
+        <h3 id="social-networks" class="footer__title">Redes Sociales</h3>
 
         <ul class="footer__social-list">
           <li class="footer__social-item">
