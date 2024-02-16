@@ -21,11 +21,11 @@ const d = document,
   $soft_skills_four = d.getElementById("soft-skills-four"),
   $soft_skills_five = d.getElementById("soft-skills-five"),
   $soft_skills_six = d.getElementById("soft-skills-six"),
-  $projects = d.getElementById("projects"),
+  $projects_text = d.getElementById("projects-text"),
   $project_one = d.getElementById("project-one"),
   $project_one_description = d.getElementById("project-one-description"),
-  $show_demo = d.getElementById("show-demo"),
-  $show_code = d.getElementById("show-code"),
+  $show_demo = d.querySelector("demo"),
+  $show_code = d.querySelector("code"),
   $project_two = d.getElementById("project-two"),
   $project_two_description = d.getElementById("project-two-description"),
   $project_three = d.getElementById("project-three"),
@@ -35,7 +35,6 @@ const d = document,
   $contact_section = d.getElementById("contact-section"),
   $contact_info = d.getElementById("contact-info"),
   $contact_by_whatsapp = d.getElementById("contact-by-whatsapp"),
-  $location = d.getElementById("location"),
   $form_title = d.getElementById("form-title"),
   $form_name = d.getElementById("form-name"),
   $form_email = d.getElementById("form-email"),
@@ -52,7 +51,8 @@ function englishLanguage(e) {
       $skills.innerHTML = "Skills";
       $portfolio.innerHTML = "Portfolio";
       $contact.innerHTML = "Contact";
-      $introduction.innerHTML = "Introduction";
+      $introduction.innerHTML =
+        "I am a web developer, who loves technology and programming.";
       $about_me_section.innerHTML = "About me";
       $about_me_description.innerHTML =
         "I am a person who loves to solve problems through technological tools, I am always in search of new learning that allows me to be better in what I perform and as human being.";
@@ -74,8 +74,87 @@ function englishLanguage(e) {
       $soft_skills_four.innerHTML = "Responsible";
       $soft_skills_five.innerHTML = "Friendly";
       $soft_skills_six.innerHTML = "Cheerful";
+      $projects_text.innerHTML = "Projects";
+      $project_one.innerHTML = "Project 1";
+      $project_one_description.innerHTML =
+        "This information will be filled out soon.";
+      $project_two.innerHTML = "Project 2";
+      $project_two_description.innerHTML =
+        "This information will be filled out soon.";
+      $project_three.innerHTML = "Project 3";
+      $project_three_description.innerHTML =
+        "This information will be filled out soon.";
+      $project_four.innerHTML = "Project 4";
+      $project_four_description.innerHTML =
+        "This information will be filled out soon.";
+      $show_demo.innerText = "SHOW DEMO";
+      $show_code.innerText = "SHOW CODE";
+      $contact_section.innerHTML = "Contact";
+      $contact_info.innerHTML = "Contact information";
+      $contact_by_whatsapp.innerHTML = "Send message to Whatsapp";
+      $form_title.innerHTML = "Send message";
+      $form_name.innerHTML = "Name";
+      $form_email.innerHTML = "Email";
+      $form_subject.innerHTML = "Subject";
+      $form_message.innerHTML = "Message";
+      $footer_introduction.innerHTML =
+        "I am a web developer, who loves technology and programming.";
+      $social_networks.innerHTML = "Social networks";
     } else {
       $home.innerHTML = "Inicio";
+      $about_me.innerHTML = "Acerca de Mí";
+      $skills.innerHTML = "Habilidades";
+      $portfolio.innerHTML = "Portafolio";
+      $contact.innerHTML = "Contacto";
+      $introduction.innerHTML =
+        "Soy desarrollador web, apasionado por la tecnología y la programación.";
+      $about_me_section.innerHTML = "Acerca de Mí";
+      $about_me_description.innerHTML =
+        "Soy una persona que le encanta dar solución a problemas a través de herramientas tecnológicas, siempre estoy en búsqueda de nuevos aprendizajes que me permitan ser mejor en lo que me desempeño y como persona.";
+      $skills_section.innerHTML = "Habilidades";
+      $skills_description.innerHTML =
+        "Poseo una muy buena lógica de programación y actualmente estoy ampliando y adquiriendo conocimientos en HTML5, CSS,Javascript y próximamente con React";
+      $html_skills.innerHTML =
+        "En el lenguaje de etiquetado y marcado se ha adquirido en buen conocimiento, pudiendo entender la importancia de la semántica del mismo para el posicionamiento y mejor procesamiento de la información de nuestro Sitio o página, sabiendo identificar las etiquetas de línea y de bloque así como los atributos necesarios para poder interactuar con las hojas de estilo en cáscada (CSS3) y lenguaje de programación (Javascript)";
+      $css_skills.innerHTML =
+        "Se ha logrado mejorar el conocimiento en el estilado de nuestros proyectos, aprendiendo a definir las reglas, así como ahondar en las propiedades de las mismas y los valores aceptados para éstas. Además se ha adquirido el conocimiento de los módulos de Flexbox y Grid, al igual que las media queries, todos estos útiles para hacer nuestros sitios responsivos.";
+      $javascript_skills.innerHTML =
+        "En el lenguaje Web se ha logrado entender cómo dar funcionalidad a nuestros sitios, pudiendo crear y manipular diferentes objetos, además utilizando herramientas existentes como las API's Web (DOM) con las cuales logramos tener una amplia interactividad con todos los elementos de nuestro documento.";
+      $react_skills.innerHTML =
+        "Se espera poder continuar nuestro aprendizaje de la mano de Academlo para adquirir los conocimientos necesarios de esta herramienta";
+      $soft_skills.innerHTML = "Habilidades Blandas";
+      $soft_skills_one.innerHTML = "Creativo";
+      $soft_skills_two.innerHTML = "Proactivo";
+      $soft_skills_three.innerHTML = "Autodidacta";
+      $soft_skills_four.innerHTML = "Responsable";
+      $soft_skills_five.innerHTML = "Amable";
+      $soft_skills_six.innerHTML = "Alegre";
+      $projects_text.innerHTML = "Proyectos";
+      $project_one.innerHTML = "Proyecto 1";
+      $project_one_description.innerHTML =
+        "próximamente se estará diligenciado esta información";
+      $project_two.innerHTML = "Proyecto 2";
+      $project_two_description.innerHTML =
+        "próximamente se estará diligenciado esta información.";
+      $project_three.innerHTML = "Proyecto 3";
+      $project_three_description.innerHTML =
+        "próximamente se estará diligenciado esta información";
+      $project_four.innerHTML = "Proyecto 4";
+      $project_four_description.innerHTML =
+        "próximamente se estará diligenciado esta información";
+      $show_demo.innerText = "VER DEMO";
+      $show_code.innerText = "VER CÓDIGO";
+      $contact_section.innerHTML = "Contacto";
+      $contact_info.innerHTML = "Información de contacto";
+      $contact_by_whatsapp.innerHTML = " Enviar mensaje a WhatsApp";
+      $form_title.innerHTML = "Enviar mensaje";
+      $form_name.innerHTML = "Nombre";
+      $form_email.innerHTML = "Correo";
+      $form_subject.innerHTML = "Asunto";
+      $form_message.innerHTML = "Mensaje";
+      $footer_introduction.innerHTML =
+        "Soy desarrollador web, apasionado por la tecnología y la programación.";
+      $social_networks.innerHTML = "Redes Sociales";
     }
   }
 }
