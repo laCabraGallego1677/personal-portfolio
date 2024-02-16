@@ -161,6 +161,11 @@ img {
   color: var(--color-white) !important;
 }
 
+.light-mode{
+  background-color: var(--color-white) !important;
+  color: var(--color-black) !important;
+}
+
 /* ============= Header & NavBar ============= */
 .header {
   position: fixed;

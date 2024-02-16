@@ -35,26 +35,26 @@
 <body data-dark>
   <header class="header" data-dark>
     <nav class="navbar grid--container" data-dark>
-      <a class="navbar__logo" href="#"data-dark><i class='bx bxs-registered'data-dark></i>C. Andrés Gallego</a>
+      <a id="name" class="navbar__logo" href="#"data-dark><i class='bx bxs-registered'data-dark></i>C. Andrés Gallego</a>
 
       <div id="nav" class="navbar__menu" data-dark>
         <a href="#close"><i class="bx bx-x btn__close navbar__icon"></i></a>
 
         <ul class="navbar__list">
           <li class="navbar__item" >
-            <a class="navbar__link active" href="#home">Inicio</a>
+            <a id="home" class="navbar__link active" href="#home">Inicio</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#about"data-dark>Acerca de Mí</a>
+            <a id="about me" class="navbar__link" href="#about"data-dark>Acerca de Mí</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#skills"data-dark>Habilidades</a>
+            <a id="skills" class="navbar__link" href="#skills"data-dark>Habilidades</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#projects"data-dark>Portafolio</a>
+            <a id="portfolio" class="navbar__link" href="#projects"data-dark>Portafolio</a>
           </li>
           <li class="navbar__item">
-            <a class="navbar__link" href="#contact"data-dark>Contacto</a>
+            <a id="contact" class="navbar__link" href="#contact"data-dark>Contacto</a>
           </li>
         </ul>
       </div>
@@ -100,26 +100,26 @@
 
         <div class="home__info" data-dark>
 
-          <h1 class="home__title">Soy C. Andrés</h1>
+          <h1 id="greeting" class="home__title">Soy C. Andrés</h1>
 
-          <p class="home__description">
+          <p id="introduction" class="home__description">
             Soy desarrollador web, apasionado por la tecnología y la
             programación.
           </p>
         </div>
 
         <div class="home__buttons">
-          <button class="btn btn--primary" type="button">Descarga CV</button>
+          <button id="download-cv" class="btn btn--primary" type="button">Descarga CV</button>
         </div>
       </div>
 
     </section>
 
     <section id="about" class="about section" data-dark>
-      <h2 class="section__title">Acerca de Mí</h2>
+      <h2 id="about-me-section" class="section__title">Acerca de Mí</h2>
 
       <div class="about__container grid--container">
-        <p class="about__description">
+        <p id="about-me-description" class="about__description">
          Soy una persona que le encanta dar solución a problemas a través de herramientas tecnológicas, siempre estoy en búsqueda de nuevos aprendizajes que me permitan ser mejor en lo que me desempeño y como persona.
         </p>
 
@@ -132,10 +132,10 @@
       </div>
     </section>
     <section id="skills" class="skills section" data-dark>
-      <h2 class="section__title">Habilidades</h2>
+      <h2 id="skills-section" class="section__title">Habilidades</h2>
 
       <div class="skills__container grid--container">
-        <p class="skills__description">
+        <p id="skills-description" class="skills__description">
           Poseo una muy buena lógica de programación y actualmente estoy ampliando y adquiriendo conocimientos en HTML5, CSS,Javascript y próximamente con React 
         </p>
 
@@ -148,7 +148,7 @@
                 <i class="bx bxl-html5"></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">HTML</h3>
-                  <p>En el lenguaje de etiquetado y marcado se ha adquirido en buen conocimiento, pudiendo entender la importancia de la semántica del mismo para el posicionamiento y mejor procesamiento de la información de nuestro Sitio o página, sabiendo identificar las etiquetas de línea y de bloque así como los atributos necesarios para poder interactuar con las hojas de estilo en cáscada (CSS3) y lenguaje de programación (Javascript) </p>
+                  <p id="html-skills">En el lenguaje de etiquetado y marcado se ha adquirido en buen conocimiento, pudiendo entender la importancia de la semántica del mismo para el posicionamiento y mejor procesamiento de la información de nuestro Sitio o página, sabiendo identificar las etiquetas de línea y de bloque así como los atributos necesarios para poder interactuar con las hojas de estilo en cáscada (CSS3) y lenguaje de programación (Javascript) </p>
                 </div>
               </div>
             </label>
@@ -159,7 +159,7 @@
                 <i class="bx bxl-css3"></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">CSS3</h3>
-                  <p>Se ha logrado mejorar el conocimiento en el estilado de nuestros proyectos, aprendiendo a definir las reglas, así como ahondar en las propiedades de las mismas y los valores aceptados para éstas. Además se ha adquirido el conocimiento de los módulos de Flexbox y Grid, al igual que las media queries, todos estos útiles para hacer nuestros sitios responsivos.</p>
+                  <p id="css-skills">Se ha logrado mejorar el conocimiento en el estilado de nuestros proyectos, aprendiendo a definir las reglas, así como ahondar en las propiedades de las mismas y los valores aceptados para éstas. Además se ha adquirido el conocimiento de los módulos de Flexbox y Grid, al igual que las media queries, todos estos útiles para hacer nuestros sitios responsivos.</p>
                 </div>
               </div>
             </label>
@@ -170,7 +170,7 @@
                 <i class="bx bxl-javascript"></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">Javascript</h3>
-                  <p>En el lenguaje Web se ha logrado entender cómo dar funcionalidad a nuestros sitios, pudiendo crear y manipular diferentes objetos, además utilizando herramientas existentes como las API's Web (DOM) con las cuales logramos tener una amplia interactividad con todos los elementos de nuestro documento.</p>
+                  <p id="javascript-skills">En el lenguaje Web se ha logrado entender cómo dar funcionalidad a nuestros sitios, pudiendo crear y manipular diferentes objetos, además utilizando herramientas existentes como las API's Web (DOM) con las cuales logramos tener una amplia interactividad con todos los elementos de nuestro documento.</p>
                 </div>
               </div>
             </label>
@@ -181,28 +181,28 @@
                 <i class='bx bxl-react'></i>
                 <div class="skills__description">
                   <h3 class="skills__card-title">React</h3>
-                  <p>Se espera poder continuar nuestro aprendizaje de la mano de Academlo para adquirir los conocimientos necesarios de esta herramienta</p>
+                  <p id="react-skills">Se espera poder continuar nuestro aprendizaje de la mano de Academlo para adquirir los conocimientos necesarios de esta herramienta</p>
                 </div>
               </div>
             </label>
           </div>
         </div>
         <div class="skills__tags">
-          <h3 class="skills__tags-title">Habilidades Blandas</h3>
+          <h3 id="soft-skills" class="skills__tags-title">Habilidades Blandas</h3>
           <div class="skills__tags-container">
-            <span class="skills__tag">Creativo</span>
-            <span class="skills__tag">Proactivo</span>
-            <span class="skills__tag">Autodidacta</span>
-            <span class="skills__tag">Responsable</span>
-            <span class="skills__tag">Amable</span>
-            <span class="skills__tag">Alegre</span>
+            <span id="soft-skills-one" class="skills__tag">Creativo</span>
+            <span id="soft-skills-two"class="skills__tag">Proactivo</span>
+            <span id="soft-skills-three"class="skills__tag">Autodidacta</span>
+            <span id="soft-skills-four"class="skills__tag">Responsable</span>
+            <span id="soft-skills-five"class="skills__tag">Amable</span>
+            <span id="soft-skills-six"class="skills__tag">Alegre</span>
           </div>
         </div>
       </div>
     </section>
 
     <section id="projects" class="projects section" data-dark>
-      <h2 class="section__title">Proyectos</h2>
+      <h2 id="projects" class="section__title">Proyectos</h2>
       <!-- PROYECTO 1  -->
       <div class="projects__container grid--container">
         <div class="projects__project">
@@ -212,16 +212,16 @@
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Proyecto 1</h3>
-              <p class="projects__description">
+              <h3 id="project-one" class="projects__name">Proyecto 1</h3>
+              <p id="project-one-description" class="projects__description">
                 próximamente se estará diligenciado esta información
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
+                <button id="show-demo" class="btn projects__button" type="button">
                   VER DEMO
                 </button>
-                <button class="btn projects__button" type="button">
+                <button id="show-code" class="btn projects__button" type="button">
                   VER CÓDIGO
                 </button>
               </div>
@@ -237,16 +237,16 @@
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Proyecto 2</h3>
-              <p class="projects__description">
+              <h3 id="project-two" class="projects__name">Proyecto 2</h3>
+              <p id="project-two-description" class="projects__description">
                 próximamente se estará diligenciado esta información
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
+                <button id="show-demo" class="btn projects__button" type="button">
                   VER DEMO
                 </button>
-                <button class="btn projects__button" type="button">
+                <button id="show-code" class="btn projects__button" type="button">
                   VER CÓDIGO
                 </button>
               </div>
@@ -262,16 +262,16 @@
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Proyecto 3</h3>
-              <p class="projects__description">
+              <h3 id="project-three" class="projects__name">Proyecto 3</h3>
+              <p id="project-three-description" class="projects__description">
                 próximamente se estará diligenciado esta información
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
+                <button id="show-demo" class="btn projects__button" type="button">
                   VER DEMO
                 </button>
-                <button class="btn projects__button" type="button">
+                <button id="show-code" class="btn projects__button" type="button">
                   VER CÓDIGO
                 </button>
               </div>
@@ -287,16 +287,16 @@
             </div>
 
             <div class="projects__info">
-              <h3 class="projects__name">Proyecto 4</h3>
-              <p class="projects__description">
+              <h3 id="project-four" class="projects__name">Proyecto 4</h3>
+              <p id="project-four-description" class="projects__description">
                 próximamente se estará diligenciado esta información
               </p>
 
               <div class="projects__buttons">
-                <button class="btn projects__button" type="button">
+                <button id="show-demo" class="btn projects__button" type="button">
                   VER DEMO
                 </button>
-                <button class="btn projects__button" type="button">
+                <button id="show-code" class="btn projects__button" type="button">
                   VER CÓDIGO
                 </button>
               </div>
@@ -307,11 +307,11 @@
     </section>
 
     <section id="contact" class="contact section" data-dark>
-      <h2 class="section__title">Contacto</h2>
+      <h2 id="contact-section" class="section__title">Contacto</h2>
 
       <div class="contact__container grid--container">
         <div class="contact__info">
-          <h3 class="contact__info-title">Información de contacto</h3>
+          <h3 id="contact-info" class="contact__info-title">Información de contacto</h3>
           <p class="contact__info-description">
             Carlos Andrés Gallego
           </p>
@@ -321,7 +321,7 @@
               <i class='bx bxl-whatsapp'></i>
 
               <span class="contact__info-number">
-                <a href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto" target="_blank">Enviar mensaje a
+                <a id="contact-by-whatsapp" href="https://wa.me/0000000000000?text=Tu%20Mensaje%20De%20Texto" target="_blank">Enviar mensaje a
                   WhatsApp</a>
               </span>
             </div>
@@ -330,7 +330,7 @@
               <i class="bx bx-phone"></i>
 
               <span class="contact__info-number">
-                <a href="tel:1-234-567-8910"> +1 123 456 7890 </a>
+                <a id="phone" href="tel:1-234-567-8910"> +1 123 456 7890 </a>
               </span>
             </div>
 
@@ -345,13 +345,13 @@
             <div class="contact__info-item">
               <i class="bx bx-map"></i>
 
-              <span class="contact__info-map"> Medellín, Colombia. </span>
+              <span id="location" class="contact__info-map"> Medellín, Colombia. </span>
             </div>
           </address>
         </div>
 
-        <div class="contact__form">
-          <h3 class="contact__form-title">Enviar mensaje</h3>
+        <div class="contact__form light-mode">
+          <h3 class="contact__form-title" color="black">Enviar mensaje</h3>
           <form id="form" class="contact__form-container">
             <div class="contact__form-group">
               <label for="name" class="contact__form-label">Nombre</label>
